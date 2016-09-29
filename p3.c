@@ -12,6 +12,7 @@ crc_t *key;
 char **store;
 
 // Generates a random string 8 characters long
+// From http://stackoverflow.com/questions/440133/how-do-i-create-a-random-alpha-numeric-string-in-c
 void gen_random(char dest[]) {
     char alphanum[] =
      "0123456789"
