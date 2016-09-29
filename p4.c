@@ -9,6 +9,7 @@
 const size_t length = 7;
 
 // Generates a random string 32 characters long
+// From http://stackoverflow.com/questions/440133/how-do-i-create-a-random-alpha-numeric-string-in-c
 void gen_random(char dest[], size_t length) {
     char alphanum[] =
      "0123456789"
